@@ -1,0 +1,107 @@
+.container {
+    display: flex;
+    align-items: center;
+    max-width: 1245px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header-inner {
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    margin: 0 20px;
+    color: black;
+}
+
+.btn {
+    text-decoration: none;
+    margin: 0 10px;
+    color: black;
+}
+
+.sing-btn {
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+    border: 1px white;
+    padding: 9px 15px;
+}
+
+.main-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left_side {
+    width:auto;
+    position: relative;
+}
+
+.main-title {
+    margin-top: 50px;
+    font-size: 69px;
+    padding-right: 30px;
+    margin: 0 0 15px 0;
+    font-weight: 700;
+}
+
+.main-text {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 0 30px 0;
+
+}
+.learn_button {
+    margin:25px 0 0 0;
+    padding: 15px 25px 15px 25px;
+
+}
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.numbers {
+    font-weight: 600;
+    font-size: 35px;
+}
+.description {
+    font-size: 15px;
+    margin: 10px 0 0 15px;
+}
+.leaves {
+    position: absolute;
+    top: 200px; left: 400px;
+}
+.right_side {
+    position: relative;
+}
+.table1 {
+    position: absolute;
+    top: 530px; left: 385px; 
+}
+.table2 {
+    position: absolute;
+    top: 65px; left: 320px;
+}
+.table3 {
+    position: absolute;
+    top: 140px; right: 360px;
+}
